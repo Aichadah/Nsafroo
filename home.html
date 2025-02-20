@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nsafro</title>
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body >
+   <div style="background-color:black;">
+    <nav class="navbar">
+        <label>
+            <input type="checkbox">
+            <div class="toggle">
+                <div class="top-line common"></div>
+                <div class="middle-line common"></div>
+                <div class="button-line common"></div>
+            </div>
+            <div class="slide">
+                <h1>Menu</h1>
+                <ul>
+                    <li><a href="#"><i class="fas fa-heart"></i> Preferences</a></li>
+                    <li><a href="guide.html"><i class="fas fa-hotel"></i>Touristic Guide</a></li>
+                    <li><a href="agency.html"><i class="fas fa-car"></i>Travel Agency</a></li>
+                    <li><a href="register.html">sign in</a></li>
+                    <li><a href="register.html">About us</a></li>
+                </ul>
+            </div>
+         </label>
+
+         <form >
+            <input class="input-search" type="search" placeholder="search..." >
+            <button class="button-search"><i class="fas fa-search"><a></a></i></button>
+         </form>
+         <div class="nav-buttons">
+           <div>
+            <button><i class="fas fa-home"><a></a></i></button>
+            <p>Home</p>
+        </div>
+           <div>
+            <button onclick="window.location.href='register.html';"><i class="fas fa-sign-in-alt"><a></a></i></button>
+            <p>Sign in</p>
+        </div>
+            <div>
+            <button><i class="fas fa-user"><a></a></i></button>
+            <p>account</p>
+        </div>
+          </div>
+          
+      </nav><hr>  
+   </div>
+   
+
+   <section > 
+  <div style="height: 500PX;">
+   <div style="background-color:#ffc838;display: flex;margin-left: 4px;">
+    <div class="container-img">
+        <img id="slide-img" src="./images/city1.jpeg">
+       <div class="text-box">
+        <h1>At Nsafro, we make travel planning a breeze. Discover, organize, and enjoy your perfect getaway with ease. Your next adventure starts here!</h1>
+       </div>
+    </div>
+    <div >
+    <h2 class="slogan" ><span style="color: rgb(43, 43, 163);">No</span> <span style="color:red;">P</span>lan<span style="color: blue;">?</span>  <span style="color: rgb(23, 116, 160);">no</span> <span style="color: rgb(32, 180, 32);">P</span>roblem<span style="color:rgb(23, 116, 160);" ;">!</span></h2>    
+    <img class="imgbug" src="./images/bug.png" >
+   </div>
+   </div>
+  </div> 
+    <section class="container ">
+    <div class="container-slides swiper">
+        <h1 class="title">Plans For YOU</h1> 
+
+      <div class="slider-wrapper">
+        <div class="card-list swiper-wrapper">
+            <div class="card-item swiper-slide">
+                <img class="imgcity" src="./images/city1.jpeg" alt="">
+                <h1>Marrakech</h1>
+                 <button onclick="window.location.href='marrakech.html';" class="viewbutton">View</button>
+            </div>
+            <div class="card-item swiper-slide">
+                <img class="imgcity" src="./images/city2.jpg" alt="">
+                 <h1>Chefchaouen</h1>
+                 <button class="viewbutton">View</button>
+            </div>
+            <div class="card-item swiper-slide">
+                <img class="imgcity" src="./images/tangier.jpeg" alt="">
+                 <h1>Tangier</h1>
+                 <button class="viewbutton">View</button>
+            </div>
+            <div class="card-item swiper-slide">
+                <img class="imgcity" src="./images/city1.jpeg" alt="">
+                 <h1>Marrakech</h1>
+                 <button onclick="window.location.href='marrakech.html';" class="viewbutton">View</button>
+            </div> 
+            <div class="card-item swiper-slide">
+                <img class="imgcity" src="./images/city2.jpg" alt="">
+                 <h1>Chefchaouen</h1>
+                 <button class="viewbutton">View</button>
+            </div>
+            <div class="card-item swiper-slide">
+                <img class="imgcity" src="./images/tangier.jpeg" alt="">
+                 <h1>Tangier</h1>
+                 <button class="viewbutton">View</button>
+            </div>
+            <div class="card-item swiper-slide">
+                <img class="imgcity" src="./images/city1.jpeg" alt="">
+                 <h1>Marrakech</h1>
+                 <button onclick="window.location.href='marrakech.html';" class="viewbutton">View</button>
+            </div>  
+            <div class="card-item  swiper-slide">
+                <img class="imgcity" src="./images/city2.jpg" alt="">
+                 <h1>Chefchaouen</h1>
+                 <button class="viewbutton">View</button>
+            </div>
+            <div class="card-item swiper-slide">
+                <img class="imgcity" src="./images/tangier.jpeg" alt="">
+                 <h1>Tangier</h1>
+                 <button class="viewbutton">View</button>
+            </div>
+        </div>
+        <div class=" swiper-pagination"></div>
+        <div class="swiper-slide-button swiper-button-prev"></div>
+        <div class=" swiper-slide-button swiper-button-next"></div>
+      </div>
+    </div>
+ </section>
+
+
+   </section>
+ 
+
+ <section>
+    <div class="startplan">
+    <div >
+    <div class="div21">
+        <h1 class="starttitle">choose your destination, your preferences and let us make your plan </h2>
+        <button onclick="window.location.href='http://127.0.0.1:5000';" class="startbutton">Start</button>
+    </div> 
+    </div>
+    <div>
+        <img class="pngplan" src="./images/plan.jpeg">
+    </div>
+</div>    
+ </section>
+       
+ <section>
+    <footer class="footer">        
+        <div class="footer-content">
+            <img class="footer-logo" src="./images/WhatsApp Image 2024-08-25 at 00.07.44.jpeg" alt="logo">
+
+            <div class="footer-links">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Preferences</a></li>
+                    <li><a href="#">Touristic Guide</a></li>
+                    <li><a href="#">Travel Agency</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: <a  href="mailto:contact@nsafro.com">contact@nsafro.com</a></p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Nsafro. All rights reserved.</p>
+        </div>
+    </footer>
+</section>
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ <script src="./index.js" charset="UTF-8"></script>
+
+</body>
+</html>
